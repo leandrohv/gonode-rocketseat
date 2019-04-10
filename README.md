@@ -49,3 +49,29 @@ console.log(req);
 return res.end("Hello World");
 })
 .listen(3000);
+
+Instalar o Express
+yarn add express
+
+Instalar nodemon
+yarn add nodemon -D -- -D é apenas para adicionar nas dependencias de desenvolvimento
+
+Instalar nunjucks
+yarn add nunjucks
+
+# Projeto novo rodar os seguintes comandos abaixo
+
+mkdir nomeProjeto
+cd nomeProjeto
+yarn init -y
+Crie um arquivo index.js na raiz
+yarn add express
+yarn add nunjucks
+yarn add nodemon -D -- como dependência de desenvolvimento ou não
+Criar o arquivo .editorconfig
+yarn add eslint -D
+yarn eslint --init
+Subir projeto para o github
+git remote add origin url
+git pull --rebase origin master
+git push origin master
